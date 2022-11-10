@@ -1,3 +1,5 @@
+const dotenv = require("dotenv")
+dotenv.config()
 var http = require('http'),
     path = require('path'),
     methods = require('methods'),
@@ -33,7 +35,7 @@ if (!isProduction) {
 if(isProduction){
   mongoose.connect(process.env.MONGODB_URI);
 } else {
-  mongoose.connect(process.env.MONGODB_URI_PRAJWAL);
+  mongoose.connect(process.env.MONGODB_PRAJWAL);
   mongoose.set('debug', true);
 }
 
