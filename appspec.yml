@@ -7,7 +7,7 @@ files:
     destination: /home/ubuntu/nodejs_backend_app/*
     overwrite: true
     timeout: 500
- file_exists_behavior: OVERWRITE
+file_exists_behavior: OVERWRITE
 
 hooks:
   BeforeInstall:
