@@ -4,7 +4,7 @@ runas: root
 
 files:
   - source: /
-    destination: /home/ubuntu/nodejs_backend_app/*
+    destination: /home/ubuntu/nodejs_backend_app/
     overwrite: true
     timeout: 500
 file_exists_behavior: OVERWRITE
