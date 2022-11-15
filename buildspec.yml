@@ -12,7 +12,6 @@ phases:
        - npm install npm@latest -g
        - npm install pm2@latest -g
        - npm install --save dotenv
-       - echo "MONGODB_URI_PRAJWAL=$MONGODB_URI_PRAJWAL" > .env
 
    build:
      commands:
