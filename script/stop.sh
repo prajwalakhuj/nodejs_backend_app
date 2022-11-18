@@ -1,4 +1,5 @@
 #!/bin/bash
 echo "Stopping nodejs app"
 sleep 10
-sudo pkill node
+cd /home/ubuntu/nodejs_backend_app/
+sudo pm2 stop app.js
